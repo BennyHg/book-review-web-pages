@@ -1,3 +1,62 @@
+html {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 12px;
+}
+
+footer {
+    background-color: burlywood;
+    margin-top: 24px;
+    padding: 24px;
+}
+
 main {
-    
+    max-width: 800px;
+    margin: auto
+}
+
+.main-page-book-review {
+    background-color: white;
+    border: 1px solid skyblue;
+    padding: 24px;
+}
+
+.book-cover {
+    width: 200px;
+    height: auto;
+}
+
+.book-title {
+    font-weight: bold;
+}
+
+.book-rating {
+    font-weight: bold;
+}
+
+.detail-page-book-review {
+    background-color: white;
+    padding: 24px;
+    border: 1px solid skyblue;
+}
+
+.book-review-form {
+    background-color: white;
+    border: 1px solid skyblue;
+    padding: 24px;
+    width: auto;
+    height: 50vh;
+}
+
+textarea {
+    border: 1px solid gray;
+    padding: 12px;
+    height: 100px;
 }
